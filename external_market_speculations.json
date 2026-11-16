@@ -1,0 +1,62 @@
+{
+  "commodity": "Almond",
+  "forecast_period": "2026-12 to 2027-05",
+  "base_currency": "INR/kg",
+  "market_factors": [
+    {
+      "id": "CALIFORNIA_CROP_SHIPMENT_TIGHTNESS",
+      "name": "California Almond Crop Position & USDA Shipment Tightness",
+      "active_months": [
+        "2026-12",
+        "2027-01"
+      ],
+      "buying_price_shock_pct": 1.5,
+      "selling_price_shock_pct": 1.2,
+      "rationale": "Tight carryover inventory reported by the Almond Board of California (ABC) combined with robust global holiday export commitments pushes landed CIF container rates upwards across Nhava Sheva (JNPT) and ICD Tughlakabad terminals."
+    },
+    {
+      "id": "USD_INR_EXCHANGE_VOLATILITY",
+      "name": "Rupee-Dollar Currency Import Parity Pressure",
+      "active_months": [
+        "2027-01",
+        "2027-02"
+      ],
+      "buying_price_shock_pct": 1.8,
+      "selling_price_shock_pct": 1.4,
+      "rationale": "US Dollar strength elevates landed import replacement costs in Mumbai and Delhi dry fruit markets, driving commercial importers to maintain firm spot offer prices."
+    },
+    {
+      "id": "POST_FESTIVE_SEASONAL_COOLING",
+      "name": "Post-Diwali & Winter Wedding Consumption Normalization",
+      "active_months": [
+        "2027-02",
+        "2027-03"
+      ],
+      "buying_price_shock_pct": -1.2,
+      "selling_price_shock_pct": -0.9,
+      "rationale": "Secondary wholesale markets in Punjab, Haryana, and Gujarat transition from peak winter gifting to normal replenishment, softening spot wholesale premiums."
+    },
+    {
+      "id": "AUSTRALIAN_NEW_CROP_INFLOW",
+      "name": "Australian New-Crop Kernel Inflows & Port Arrivals",
+      "active_months": [
+        "2027-03",
+        "2027-04"
+      ],
+      "buying_price_shock_pct": -1.6,
+      "selling_price_shock_pct": -1.1,
+      "rationale": "Early harvesting shipments of Australian Nonpareil and Carmels arrive at Western Indian ports, replenishing domestic pipeline inventory and easing landed spot spreads."
+    },
+    {
+      "id": "SUMMER_BEVERAGE_CONFECTIONERY_DEMAND",
+      "name": "Summer Institutional Beverage & Dairy Processing Surge",
+      "active_months": [
+        "2027-04",
+        "2027-05"
+      ],
+      "buying_price_shock_pct": 1.4,
+      "selling_price_shock_pct": 1.8,
+      "rationale": "Pre-summer industrial procurement for badam milk, ice cream mixes, confectionery, and summer FMCG nutrition goods expands institutional absorption across Delhi and Maharashtra."
+    }
+  ]
+}
